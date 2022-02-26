@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const httpClient = axios.create({
-    baseURL: 'http://localhost:8000/api/',
+    baseURL: 'https://photosrepo.herokuapp.com/api/', //'http://localhost:8000/api/',
 })
 
 export default httpClient;
