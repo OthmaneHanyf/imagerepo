@@ -143,8 +143,8 @@ MEDIA_ROOT = BASE_DIR / 'frontend'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://photosrepo.herokuapp.com/",
-    "https://photosrepo.herokuapp.com/",
+    "http://photosrepo.herokuapp.com",
+    "https://photosrepo.herokuapp.com",
 ]
 
 CLOUDINARY_STORAGE = {
