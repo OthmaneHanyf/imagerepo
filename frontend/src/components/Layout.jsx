@@ -20,8 +20,9 @@ const Layout = ({children}) => {
         <CssBaseline />
         <AppBar position='relative' >
           <Toolbar >
-            <PhotoCamera />
-            <Typography marginX={2.0} variant='h6'>Photo Album</Typography>
+            <img src='/Photo.png' width={80} alt='' />
+            {/* <PhotoCamera /> */}
+            {/* <Typography marginX={2.0} variant='h6'>Photo Album</Typography> */}
           </Toolbar>
         </AppBar>
         <main>
